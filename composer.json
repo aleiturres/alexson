@@ -1,0 +1,19 @@
+{
+	"name": "alex-teste/course-composer",
+	"description": "Package test",
+	"require": {
+		"php":">=5.4",
+		"silex/silex":"1.3.*@stable"
+	},
+	"type": "library",
+	"version": "1.0",
+	"license": "MIT",
+	"authors": [{
+		"name": "Alex Macarroni",
+		"email": "teste@teste.com"
+	}],
+	"minimun-stability": "dev",
+	"autoload": {
+		"psr-4": {"Alex\\SON\\": "src/Alex/SON"}
+	}
+}
